@@ -241,6 +241,9 @@
     color: black;
 }
 
+.dropdown-menu .menu-links li:hover {
+    background-color: #999999;
+}
 
 .footer {
     background-color: #4c4b4c;

@@ -119,7 +119,7 @@
     color: #4c4b4c !important;
 }
 .icon-set .icon-area:hover > .icon-menu {
-    //color: #0066B3 !important;
+    color: #4c4b4c !important;
 }
 .icon-set .search-area {
     width: 300px;
@@ -342,6 +342,14 @@
     top: 6px;
     //padding: 4px 4px 4px 4px;
     cursor: pointer;
+}
+
+
+@media (max-width:768px) {
+    .icon-set, .navbar-nav {
+        margin: 0;
+        float: right;
+    }
 }
 
 

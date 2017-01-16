@@ -127,6 +127,15 @@
     right: 24px;
 }
 
+.icon-menu > [class^=ihs-icon-]{
+    vertical-align: middle;
+}
+
+.ihs-header .icon-set .icon-area .icon-menu>.greeting {
+    padding-left: 8px;
+    vertical-align: middle;
+}
+
 .search-group .btn-icon {
     background: -webkit-linear-gradient(-75deg, #08AC4B,#328F8A); 
 }
@@ -243,6 +252,10 @@
 
 .dropdown-menu .menu-links li:hover {
     background-color: #999999;
+}
+
+.dropdown-menu hr {
+    margin: 0px 0px 8px 0px;
 }
 
 .footer {

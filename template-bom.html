@@ -31,7 +31,17 @@ Icons: help, settings, user (c)
     <ul class="icon-set nav navbar-nav">
         
         <li class="search-area">
-            <div class="input-group search-group">
+          <!--  <div class="input-group search-group">
+                
+            <div class="input-group-btn">
+                <button type="button" class="btn btn-deemphasized btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Filter <span class="ihs-icon-arrow rotate-270"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">My Content</a></li>
+                  <li><a href="#">All Content</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div>
 
             <input type="hidden" name="search-param" value="all" id="search-param">         
             <input type="text" class="form-control short typeahead" name="x" placeholder="Search term...">
@@ -39,7 +49,25 @@ Icons: help, settings, user (c)
             <span class="input-group-btn">
                 <button class="btn btn-icon" type="button"><span class="ihs-icon-search"></span></button>
             </span>
-            </div>
+            </div>-->
+        <div class="input-group search-group">
+            <span class="input-group-addon" id="ew-caret-picker" data-toggle="dropdown">
+                <span class="ihs-icon-arrow rotate-270"></span>
+            </span>
+
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="#">My Content</a></li>
+                <li><a href="#">All Content</a></li>
+            </ul>       
+
+           <input type="hidden" name="search-param" value="all" id="search-param">         
+            <input type="text" class="form-control short typeahead" name="x" placeholder="Enter Part/Content">
+
+            <span class="input-group-btn">
+                <button class="btn btn-icon" type="button"><span class="ihs-icon-search"></span></button>
+            </span>  
+
+        </div>
         </li>
         
         <li class="icon-area">

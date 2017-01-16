@@ -86,7 +86,6 @@
     display: block;
 }
 
-
 .ihs-header .icon-set .icon-area {
     border: 1px solid #fff !important;
     padding: 0px 23px;
@@ -106,7 +105,6 @@
 .icon-set > .icon-area:last-child,
 .icon-set > .icon-area:last-child:hover{
     margin-right: 6px;
-   // line-height: 66px;
     padding-right: 12px;
     
 }
@@ -230,6 +228,9 @@
 .ihs-menu.navbar-black li a{
     height: 24px;
 }
+.ihs-menu.navbar-black li a {
+    padding: 5px 12px;
+}
 .ihs-menu.navbar-black li:hover,
 .ihs-menu.navbar-black li a:hover {
     background-color: #E5E5E5;
@@ -248,6 +249,28 @@
     background-color: #E5E5E5;
     color: black;
 }
+
+
+.search-group .ihs-icon-arrow {
+    font-size: 9px;
+    margin: 0;
+}
+
+.search-group .form-control.short {
+    padding: 12px 8px 10px 8px;
+}
+
+.search-group ul li:hover,
+.dropdown-menu>li>a:focus, 
+.dropdown-menu>li>a:hover {
+    background-color: #999;
+}
+
+.dropdown-menu>li>a {
+    padding: 3px 16px;
+}
+
+
 
 .dropdown-menu .menu-links li:hover {
     background-color: #999999;

@@ -124,6 +124,18 @@
     right: 24px;
 }
 
+.icon-area:hover > .icon-menu:after {
+    position: absolute;
+    bottom: -1px;
+    width: 100%;
+    height: 1px;
+    content: '';
+    left 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 5000;
+}
+
 .icon-menu > [class^=ihs-icon-]{
     vertical-align: middle;
 }

@@ -271,14 +271,12 @@
     padding: 3px 16px;
 }
 
-
-
 .dropdown-menu .menu-links li:hover {
     background-color: #999999;
 }
 
 .dropdown-menu hr {
-    margin: 0px 0px 8px 0px;
+    margin: 8px 0px 8px 0px;
 }
 
 .footer {

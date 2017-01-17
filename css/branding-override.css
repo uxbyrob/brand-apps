@@ -275,6 +275,10 @@
     background-color: #999999;
 }
 
+.dropdown-menu hr {
+    margin: 8px -16px 8px -16px;
+}
+
 .dropdown-menu ul hr {
     margin: 8px 0px 8px 0px;
 }

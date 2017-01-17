@@ -5,6 +5,11 @@
     margin: 0px auto;
 }
 
+.container-width-x {
+    width: 1024px;
+    margin: 0 auto;
+}
+
 .demo-site-links li {
     margin: 10px 5px 10px 25px;
     padding: 15px 10px 15px 15px;
@@ -30,23 +35,6 @@
     margin: 0px auto;
     border: 0px solid;
     max-width: 1024px;
-}
-
-.grey-bar {
-    background-color: #999999;
-    position: absolute;
-    top: 66px;
-    z-index: 0;
-    height: 24px;
-    width: 100%;
-}
-.blue-bar {
-    background-color: ##0066B3;
-    position: absolute;
-    top: 66px;
-    z-index: 0;
-    height: 24px;
-    width: 100%;
 }
 
 .brand {
@@ -182,6 +170,7 @@
     background-color: #0B507F;
     color: white;
 }
+
 
 .ihs-menu.navbar-turquoise {
     background-color: #00719d;

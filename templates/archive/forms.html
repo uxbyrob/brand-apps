@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>IHS Pattern Library - V1</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/styles.css">  
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+      
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="https://cdn.ihs.com/Technology/images/ux/ihs-icon-logo.svg"></a>
+                <a href="index.html"><h2>IHS Pattern Library - Version 1</h2></a>
+            </div>
+            
+            
+            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+               
+                <ul class="nav navbar-nav side-nav">
+                    <li class="atomic">Atoms</li>
+                    <li>
+                        <a href="colors.html">Colors</a>
+                    </li>
+                    <li>
+                        <a href="typography.html">Typography</a>
+                    </li>
+                    <li>
+                        <a href="buttons.html">Buttons</a>
+                    </li>
+                     <li>
+                        <a href="iconography.html">Icons / Images</a>
+                    </li>
+                    
+                    <li>
+                        <a href="forms.html">Forms</a>
+                    </li>
+                    <li>
+                        <a href="tables.html">Tables</a>
+                    </li>
+                    <li class="atomic">Molecules</li>
+                    <li>
+                        <a href="menus-tabs-nav.html">Menus, Tabs, Nav</a>
+                    </li>
+                     <li>
+                        <a href="widgets.html">Widgets</a>
+                    </li>
+                    <li>
+                        <a href="panels-wells.html">Panels and Wells</a>
+                    </li>
+                     <li>
+                        <a href="alerts-modals.html">Alerts and Modals</a>
+                    </li>
+                     
+                    <li class="atomic">Organisms</li>
+                    <li>
+                        <a href="patterns.html">Patterns</a>
+                    </li>
+                     <li>
+                        <a href="charts.html">Charts and Graphs</a>
+                    </li>
+                     <li>
+                        <a href="grids.html">Grids</a>
+                    </li>
+                    <li class="atomic">Pages/Templates</li>
+                    <li>
+                        <a href="templates.html">Pages and Templates</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+
+<div id="page-wrapper">
+<div class="container-fluid">
+<h1 class="page-header">Forms</h1>
+
+<!-- <table class="table table-bordered table-hover table-striped">
+<thead>
+<tr>
+<th>Design Pattern Name</th>
+<th>Development Class Name</th>
+<th>Link to Patterns</th>
+<th>Platform</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>IHS-Form-Field-Standard</td>
+<td><code>form-control</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>IHS-Form-Field-Standard-Short</td>
+<td><code>form-control small</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>IHS-Selector-Check-Binary-10</td>
+<td><code>checkbox small,  checkbox-inline small</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>IHS-Selector-Check-Binary-12</td>
+<td><code>checkbox, checkbox-inline</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>IHS-Selector-Check-Three-Way-12</td>
+<td><code>checkbox indeterminate</code></td>
+<td><em>Uses Javascript indeterminate property on checkboxes</em></td>
+<td></td>
+</tr>
+<tr>
+<td>IHS-Selector-Dropdown-Standard</td>
+<td><code>form-control</code></td>
+<td><em>Will bind with the <strong>list</strong> "atom" ...</em></td>
+<td></td>
+</tr>
+<tr>
+<td>IHS-Selector-Dropdown-Short</td>
+<td><code>form-control small</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>IHS-Selector-Radio-10</td>
+<td><code>radio small, radio-inline small</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>IHS-Selector-Radio-12</td>
+<td><code>radio, radio-inline</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>IHS-Selector-Toggle</td>
+<td><code>toggle</code></td>
+<td><a href="../src/documentation/buttons-toggle.png" target="_blank">Example</a></td>
+<td></td>
+</tr>
+</tbody>
+</table> -->
+
+ 
+<!-- Forms-->
+    <div class="row">
+        <h1>Text Input</h1>
+        <code>ihs-formfield-standard</code>
+                <div class="form-group">
+                    <label>Text Input</label>
+                    <input class="form-control" id="" name="">
+                    <span class="required"></span>
+                    <p class="help-block">Example block-level help text here.</p>
+                </div>
+        <code>variation - inline</code>
+                
+<div class="form-horizontal">
+    <div class="form-group">
+        <label for="inputEmail3" class="col-sm-1 control-label">Email</label>
+        <div class="col-sm-11">
+            <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+            <span class="required"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="inputPassword3" class="col-sm-1 control-label">Password</label>
+        <div class="col-sm-11">
+            <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+            <span class="required"></span>
+        </div>
+    </div>
+</div>
+
+
+<code>variation - with remove icon</code>
+<div class="form-horizontal">
+<div class="col-md-12">
+    <div class="input-group">
+    <input type="text" class="form-control" placeholder="Select a BOM File to import...">
+    <span class="input-group-addon" id=""><i class="fa fa-times"></i></span>
+    <span class="required"></span>
+    </div>
+
+</div>
+</div>
+
+<br><Br>
+                           
+        <code class="shim-top">ihs-formfield-short</code>
+                <div class="form-group inner-addon">
+                    <label>Text Input Short Box</label>
+                    <span class="required"></span>
+                    <input class="form-control short" id="">
+                    <p class="help-block">Example block-level help text here.</p>
+                </div>
+        <h1>Select and Drop Downs</h1>
+        <code>ihs-selector-dropdown-standard</code>
+           <div class="col-md-2">
+            <div class="form-group">
+                    <label>Selects</label>
+                    <select id="nameIt" class="form-control select-menu" >
+                        <option>Imported Manufacturer Name</option>
+                        <option>option 1 option 1 option 1 option 1 option 1</option>
+                        <option>option 2</option>
+                        <option>option 3</option>
+                        <option>option 4</option>
+                        <option>option 5</option>
+                    </select>
+            </div>
+        </div>
+        <code>ihs-selector-dropdown-short</code>
+            <div class="form-group">
+                <select class="form-control select-menu-short">
+                        <option>Imported Manufacturer Name</option>
+                        <option>option 1</option>
+                        <option>option 2</option>
+                        <option>option 3</option>
+                        <option>option 4</option>
+                        <option>option 5</option>
+                </select>
+            </div>
+        <div class="clearfix"></div>
+        <h1>Toggles and Controls</h1>
+            <code>ihs-toggle-bubble</code>
+            <p>Interactive Toggle with Bubble selector</p>
+           <div class="toggle-switch-bubble">
+                <input type="checkbox" id="bubble" value="">
+                <label for="bubble"></label>
+            </div>
+            <code>ihs-toggle-list</code>
+            <p>Interactive Toggle with List selector</p>
+            <div class="toggle-switch-list">
+                <input type="checkbox" id="list" value="">
+                <label for="list"></label>
+           </div>
+    </div>
+    <div class="row">
+        <h1>Checkboxes and Radios</h1>
+        <div class="col-md-4">  
+            <code>ihs-selector-check-binary-12</code>
+            <div class="form-group">
+                <div class="checkbox">
+                    <input type="checkbox" id="checkbox-4" value="" >
+                    <label for="checkbox-4">
+                        Checkbox 1
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="checkbox-5" value="">
+                    <label for="checkbox-5">
+                        Checkbox 2
+                    </label>
+                </div>
+                <div class="checkbox">
+                     <input type="checkbox" id="checkbox-6" value="">
+                    <label for="checkbox-6">
+                       Checkbox 3
+                    </label>
+                </div>
+            </div>
+            <code>ihs-selector-check-binary-10</code>
+            <div class="form-group">
+                <div class="checkbox-size-10">
+                    <input type="checkbox" value="" id="checkbox-1">
+                    <label for="checkbox-1">
+                      Checkbox 1
+                    </label>
+                </div>
+                <div class="checkbox-size-10">
+                    <input type="checkbox" id="checkbox-2" value="">
+                    <label for="checkbox-2">
+                      Checkbox 2
+                    </label>
+                </div>
+                <div class="checkbox-size-10">
+                     <input type="checkbox" id="checkbox-3" value="">
+                    <label for="checkbox-3">
+                       Checkbox 3
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <code>ihs-selector-radio-12</code>
+            <div class="form-group">
+                <div class="radio">
+                    <input type="radio" id="radio-4" value="1" name="demo">
+                    <label for="radio-4">
+                        Radio 1
+                    </label>
+                </div>
+                <div class="radio">
+                <input type="radio" id="radio-5" value="2" name="demo">
+                    <label for="radio-5">
+                        Radio 2
+                    </label>
+                </div>
+                <div class="radio">
+                <input type="radio" id="radio-6" value="3" name="demo">
+                    <label for="radio-6">
+                        Radio 3
+                    </label>
+                </div>
+            </div> 
+            <code>ihs-selector-radio-10</code>
+            <div class="form-group">
+                <div class="radio-size-10">
+                    <input type="radio" id="radio-1" value="1" name="demo">
+                    <label for="radio-1">
+                        Radio 1
+                    </label>
+                </div>
+                <div class="radio-size-10">
+                <input type="radio" id="radio-2" value="2" name="demo">
+                    <label for="radio-2">
+                        Radio 2
+                    </label>
+                </div>
+                <div class="radio-size-10">
+                <input type="radio" id="radio-3" value="3" name="demo">
+                    <label for="radio-3">
+                        Radio 3
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <code>ihs-selector-check-three-way-12</code>
+            <div class="form-group">
+                <div class="checkbox">
+                    <input type="checkbox" id="checkall" class="thing">
+                    <label for="checkall">
+                        Check all
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="check-4" class="thing" value="">
+                    <label for="check-4">
+                        Checkbox 1
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="check-5" class="thing" value="">
+                    <label for="check-5">
+                        Checkbox 2
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="check-6" class="thing" value="" disabled="true">
+                    <label for="check-6">
+                        Checkbox 3  (Disabled)
+                    </label>
+                </div>
+            </div>
+            <code>ihs-selector-check-three-way-10</code>
+            <div class="form-group">
+                <div class="checkbox-size-10">
+                    <input type="checkbox" id="checkall10">
+                    <label for="checkall10">
+                        Check all
+                    </label>
+               </div>
+               <div class="checkbox-size-10">
+                    <input type="checkbox" id="check-1" class="thing10" value="">
+                    <label for="check-1">
+                        Checkbox 1
+                    </label>
+                </div>
+                <div class="checkbox-size-10">
+                    <input type="checkbox" id="check-2" class="thing10" value="">
+                    <label for="check-2">
+                        Checkbox 2
+                    </label>
+                </div>
+                <div class="checkbox-size-10">
+                    <input type="checkbox" id="check-3" class="thing10" value="">
+                    <label for="check-3">
+                        Checkbox 3
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        </div>
+        <code>ihs-form-icon</code>
+    
+        <div class="well clearfix">   
+            <div class="input-group">
+            <input type="text" class="form-control">
+            <span class="input-group-addon" id="ew-date-picker"><i class="fa fa-times"></i></span>
+            </div>
+        </div>
+        <!-- /.row (nested) -->
+    </div>
+    <!-- /.panel-body -->
+</div>
+              
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.2.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>  
+
+    <script>
+    var checkboxes = document.querySelectorAll('input.thing'),
+    checkall = document.getElementById('checkall');
+
+    for(var i=0; i<checkboxes.length; i++) {
+        checkboxes[i].onclick = function() {
+            var checkedCount = document.querySelectorAll('input.thing:checked').length;
+            
+            checkall.checked = checkedCount > 0;
+            checkall.indeterminate = checkedCount > 0 && checkedCount < checkboxes.length;
+        }
+    }
+
+    checkall.onclick = function() {
+        for(var i=0; i<checkboxes.length; i++) {
+            checkboxes[i].checked = this.checked;
+        }
+    }
+
+   
+    $('.select-menu').bootstrapSelect({
+        'button-style': 'btn-primary'
+    });
+
+    $('.select-menu-short').bootstrapSelect({
+        'button-style': 'btn-primary',
+        'field-size': 'input-sm'
+    });
+    
+                                 
+
+    </script>
+    
+
+</body>
+
+</html>

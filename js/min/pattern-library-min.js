@@ -1,0 +1,1 @@
+$(function(){$("#pattern-selector").change(function(){var t=$($(this).val()).offset().top;$("html,body").animate({scrollTop:t-40},"slow")})});

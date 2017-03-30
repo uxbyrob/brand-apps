@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>IHS Pattern Library - V1</title>
+
+    <!-- Bootstrap Core CSS -->
+   <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/styles.css">    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="https://cdn.ihs.com/Technology/images/ux/ihs-icon-logo.svg"></a>
+                <a href="index.html"><h2>IHS Pattern Library - Version 1</h2></a>
+            </div>
+            
+            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li class="atomic">Atoms</li>
+                    <li>
+                        <a href="colors.html">Colors</a>
+                    </li>
+                    <li>
+                        <a href="typography.html">Typography</a>
+                    </li>
+                    <li>
+                        <a href="buttons.html">Buttons</a>
+                    </li>
+                     <li>
+                        <a href="iconography.html">Icons / Images</a>
+                    </li>
+                    
+                    <li>
+                        <a href="forms.html">Forms</a>
+                    </li>
+                    <li>
+                        <a href="tables.html">Tables</a>
+                    </li>
+                    <li class="atomic">Molecules</li>
+                    <li>
+                        <a href="menus-tabs-nav.html">Menus, Tabs, Nav</a>
+                    </li>
+                     <li>
+                        <a href="widgets.html">Widgets</a>
+                    </li>
+                    <li>
+                        <a href="panels-wells.html">Panels and Wells</a>
+                    </li>
+                     <li>
+                        <a href="alerts-modals.html">Alerts and Modals</a>
+                    </li>
+                    
+                    <li class="atomic">Organisms</li>
+                    <li>
+                        <a href="patterns.html">Patterns</a>
+                    </li>
+                     <li>
+                        <a href="charts.html">Charts and Graphs</a>
+                    </li>
+                     <li>
+                        <a href="grids.html">Grids</a>
+                    </li>
+                    <li class="atomic">Pages/Templates</li>
+                    <li>
+                        <a href="templates.html">Pages and Templates</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+
+        <div id="page-wrapper">
+
+            <div class="container-fluid">
+                <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Buttons</h1>
+<!-- <table class="table table-bordered table-hover table-striped">
+<thead>
+<tr>
+<th>Design Pattern Name</th>
+<th>Development Class Name</th>
+<th>Link to Pattern</th>
+<th>Platform</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>IHS-Button-Mini</td>
+<td><code>btn btn-default btn-xs small</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>IHS-Button-Short</td>
+<td><code>btn btn-default btn-sm</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>IHS-Button-Standard</td>
+<td><code>btn btn-default</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>IHS-Button-Caution-Short</td>
+<td><code>btn btn-warning</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>IHS-Button-Caution-Standard</td>
+<td><code>btn btn-warning</code></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table> -->
+                </div>
+                <div class="col-lg-4">
+                          
+                          <blockquote> 
+                          <code>ihs-button-standard</code>
+                            <button type="button" class="btn btn-default">This is a Standard Button</button>
+                          
+                             <hr>
+                            
+                    
+                            <code>ihs-button-standard-caution</code>
+                           <button type="button" class="btn btn-warning">Button Caution</button>
+                           
+                           <hr>
+                           
+                           <code>ihs-button-standard-inactive</code>
+                           <button type="button" class="btn btn-inactive">Button Inactive</button>
+                          
+                          <hr> 
+                           
+                         <code>ihs-button-standard-deemphasized</code> 
+                           <button type="button" class="btn btn-deemphasized">Button Deemphasized</button>
+                           
+                           <hr>
+                           <code>ihs-button-standard-go</code> 
+                           <button type="button" class="btn btn-go">Button Go</button>
+                          
+                           
+                         </blockquote>
+                </div>
+                <div class="col-lg-4">
+                         
+                        <blockquote>
+                        <code>ihs-button-short</code>
+                            <button type="button" class="btn btn-default btn-sm">This is a Short Button</button>
+                         
+                            
+                            <hr>
+                            <code>ihs-button-short-caution</code>
+                           <button type="button" class="btn btn-warning btn-sm">Button Caution</button>
+                           
+                           
+                      
+                           <hr>
+                           <code>ihs-button-short-inactive</code>
+                           <button type="button" class="btn btn-inactive btn-sm">Button Inactive</button>
+                           
+                           
+                           <hr>
+                           <code>ihs-button-short-deemphasized</code> 
+                           <button type="button" class="btn btn-deemphasized btn-sm">Button Deemphasized</button>
+                           
+                           
+                           <hr>
+                           <code>ihs-button-short-go</code>
+                           <button type="button" class="btn btn-go btn-sm">Button Go</button>
+                           
+                            
+                        </blockquote>
+                </div>
+                <div class="col-lg-4">
+                
+                <code>ihs-button-mini</code>
+                         <button type="button" class="btn btn-default btn-xs small">This is a Mini Button</button>
+                
+                            
+                            
+                           <hr>
+                            <code>ihs-button-mini-caution</code> 
+                           <button type="button" class="btn btn-warning btn-xs small">Button Caution</button>
+                           
+                           <hr>
+                           <code>ihs-button-mini-inactive</code> 
+                           <button type="button" class="btn btn-inactive btn-xs small">Button Inactive</button>
+                           
+                           
+                           <hr>
+                           <code>ihs-button-mini-deemphasized</code> 
+                           <button type="button" class="btn btn-deemphasized btn-xs small">Button Deempahsized</button>
+                           
+                           
+                           <hr>
+                           <code>ihs-button-mini-go</code> 
+                           <button type="button" class="btn btn-go btn-xs small">Button Go</button>
+                           
+                           
+                         
+                </div>
+                </div>
+                <div class="row">
+                <div class="col-lg-12">
+                         
+<pre>
+<code>
+&lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Default&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-default btn-sm&quot;&gt;Short&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-default btn-xs small &quot;&gt;Mini&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-warning&quot;&gt;Emphasis&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-inactive&quot;&gt;Inactive&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-deemphasized&quot;&gt;Deemphasized&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-go&quot;&gt;Go&lt;/button&gt;
+</code>
+</pre>
+                             
+            </div>
+            </div>
+
+<div class="dont-show">
+            <div class="row"> 
+            <hr class="pl">
+                    <h3>Atoms - Pattern Library Generic</h3>
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Default Buttons
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <h4>Normal Buttons</h4>
+                            <p>
+                                <button type="button" class="btn btn-default">Default</button>
+                                <button type="button" class="btn btn-primary">Primary</button>
+                                <button type="button" class="btn btn-success">Success</button>
+                                <button type="button" class="btn btn-info">Info</button>
+                                <button type="button" class="btn btn-warning">Warning</button>
+                                <button type="button" class="btn btn-danger">Danger</button>
+                                <button type="button" class="btn btn-link">Link</button>
+                            </p>
+<pre>
+<code>
+&lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Default&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Primary&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-success&quot;&gt;Success&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-info&quot;&gt;Info&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-warning&quot;&gt;Warning&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-danger&quot;&gt;Danger&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-link&quot;&gt;Link&lt;/button&gt;
+</code>
+</pre>
+                            <br>
+                            <h4>Disabled Buttons</h4>
+                            <p>
+                                <button type="button" class="btn btn-default disabled">Default</button>
+                                <button type="button" class="btn btn-primary disabled">Primary</button>
+                                <button type="button" class="btn btn-success disabled">Success</button>
+                                <button type="button" class="btn btn-info disabled">Info</button>
+                                <button type="button" class="btn btn-warning disabled">Warning</button>
+                                <button type="button" class="btn btn-danger disabled">Danger</button>
+                                <button type="button" class="btn btn-link disabled">Link</button>
+                            </p>
+<pre>
+<code>
+&lt;button type=&quot;button&quot; class=&quot;btn btn-default disabled&quot;&gt;Default&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-primary disabled&quot;&gt;Primary&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-success disabled&quot;&gt;Success&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-info disabled&quot;&gt;Info&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-warning disabled&quot;&gt;Warning&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-danger disabled&quot;&gt;Danger&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-link disabled&quot;&gt;Link&lt;/button&gt;
+</code>
+</pre>
+                            <br>
+                            <h4>Button Sizes</h4>
+                            <p>
+                                <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                                <button type="button" class="btn btn-primary">Default button</button>
+                                <button type="button" class="btn btn-primary btn-sm">Small button</button>
+                                <button type="button" class="btn btn-primary btn-xs">Mini button</button>
+                                <br>
+                                <br>
+                                <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+                            </p>
+<pre>
+<code>
+&lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-lg&quot;&gt;Large button&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Default button&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-sm&quot;&gt;Small button&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-xs&quot;&gt;Mini button&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-lg btn-block&quot;&gt;Block level button&lt;/button&gt;
+</code>
+</pre>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Circle Icon Buttons with Font Awesome Icons
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <h4>Normal Circle Buttons</h4>
+                            <button type="button" class="btn btn-default btn-circle"><i class="fa fa-check"></i>
+                            </button>
+                            <button type="button" class="btn btn-primary btn-circle"><i class="fa fa-list"></i>
+                            </button>
+                            <button type="button" class="btn btn-success btn-circle"><i class="fa fa-link"></i>
+                            </button>
+                            <button type="button" class="btn btn-info btn-circle"><i class="fa fa-check"></i>
+                            </button>
+                            <button type="button" class="btn btn-warning btn-circle"><i class="fa fa-times"></i>
+                            </button>
+                            <button type="button" class="btn btn-danger btn-circle"><i class="fa fa-heart"></i>
+                            </button>
+                            
+<pre>
+<code>
+&lt;button type=&quot;button&quot; class=&quot;btn btn-default btn-circle&quot;&gt;
+&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;
+&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-circle&quot;&gt;
+&lt;i class=&quot;fa fa-list&quot;&gt;&lt;/i&gt;
+&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-success btn-circle&quot;&gt;
+&lt;i class=&quot;fa fa-link&quot;&gt;&lt;/i&gt;
+&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-circle&quot;&gt;
+&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;
+&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-warning btn-circle&quot;&gt;
+&lt;i class=&quot;fa fa-times&quot;&gt;&lt;/i&gt;
+&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-danger btn-circle&quot;&gt;
+&lt;i class=&quot;fa fa-heart&quot;&gt;&lt;/i&gt;
+&lt;/button&gt;
+</code>
+</pre>
+                            <h4>Large Circle Buttons</h4>
+                            <button type="button" class="btn btn-default btn-circle btn-lg"><i class="fa fa-check"></i>
+                            </button>
+                            <button type="button" class="btn btn-primary btn-circle btn-lg"><i class="fa fa-list"></i>
+                            </button>
+                            <button type="button" class="btn btn-success btn-circle btn-lg"><i class="fa fa-link"></i>
+                            </button>
+                            <button type="button" class="btn btn-info btn-circle btn-lg"><i class="fa fa-check"></i>
+                            </button>
+                            <button type="button" class="btn btn-warning btn-circle btn-lg"><i class="fa fa-times"></i>
+                            </button>
+                            <button type="button" class="btn btn-danger btn-circle btn-lg"><i class="fa fa-heart"></i>
+                            </button>
+                            <br>
+                            <br>
+<pre>
+<code>
+&lt;button type=&quot;button&quot; class=&quot;btn btn-default btn-circle btn-lg&quot;&gt;
+&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;
+&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-circle btn-lg&quot;&gt;
+&lt;i class=&quot;fa fa-list&quot;&gt;&lt;/i&gt;
+&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-success btn-circle btn-lg&quot;&gt;
+&lt;i class=&quot;fa fa-link&quot;&gt;&lt;/i&gt;
+&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-circle btn-lg&quot;&gt;
+&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;
+&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-warning btn-circle btn-lg&quot;&gt;
+&lt;i class=&quot;fa fa-times&quot;&gt;&lt;/i&gt;
+&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-danger btn-circle btn-lg&quot;&gt;
+&lt;i class=&quot;fa fa-heart&quot;&gt;&lt;/i&gt;
+&lt;/button&gt;
+</code>
+</pre>
+                            <h4>Extra Large Circle Buttons</h4>
+                            <button type="button" class="btn btn-default btn-circle btn-xl"><i class="fa fa-check"></i>
+                            </button>
+                            <button type="button" class="btn btn-primary btn-circle btn-xl"><i class="fa fa-list"></i>
+                            </button>
+                            <button type="button" class="btn btn-success btn-circle btn-xl"><i class="fa fa-link"></i>
+                            </button>
+                            <button type="button" class="btn btn-info btn-circle btn-xl"><i class="fa fa-check"></i>
+                            </button>
+                            <button type="button" class="btn btn-warning btn-circle btn-xl"><i class="fa fa-times"></i>
+                            </button>
+                            <button type="button" class="btn btn-danger btn-circle btn-xl"><i class="fa fa-heart"></i>
+                            </button>
+                            
+<pre>
+<code>
+&lt;button type=&quot;button&quot; class=&quot;btn btn-default btn-circle btn-xl&quot;&gt;
+&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;
+&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-circle btn-xl&quot;&gt;
+&lt;i class=&quot;fa fa-list&quot;&gt;&lt;/i&gt;
+&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-success btn-circle btn-xl&quot;&gt;
+&lt;i class=&quot;fa fa-link&quot;&gt;&lt;/i&gt;
+&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-circle btn-xl&quot;&gt;
+&lt;i class=&quot;fa fa-check&quot;&gt;&lt;/i&gt;
+&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-warning btn-circle btn-xl&quot;&gt;
+&lt;i class=&quot;fa fa-times&quot;&gt;&lt;/i&gt;
+&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-danger btn-circle btn-xl&quot;&gt;
+&lt;i class=&quot;fa fa-heart&quot;&gt;&lt;/i&gt;
+&lt;/button&gt;
+</code>
+</pre>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-6 -->
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Outline Buttons with Smooth Transition
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <h4>Outline Buttons</h4>
+                            <p>
+                                <button type="button" class="btn btn-outline btn-default">Default</button>
+                                <button type="button" class="btn btn-outline btn-primary">Primary</button>
+                                <button type="button" class="btn btn-outline btn-success">Success</button>
+                                <button type="button" class="btn btn-outline btn-info">Info</button>
+                                <button type="button" class="btn btn-outline btn-warning">Warning</button>
+                                <button type="button" class="btn btn-outline btn-danger">Danger</button>
+                                <button type="button" class="btn btn-outline btn-link">Link</button>
+                            </p>
+<pre>
+<code>
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline btn-default&quot;&gt;Default&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline btn-primary&quot;&gt;Primary&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline btn-success&quot;&gt;Success&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline btn-info&quot;&gt;Info&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline btn-warning&quot;&gt;Warning&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline btn-danger&quot;&gt;Danger&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline btn-link&quot;&gt;Link&lt;/button&gt;
+</code>
+</pre>
+                            <br>
+                            <h4>Outline Button Sizes</h4>
+                            <p>
+                                <button type="button" class="btn btn-outline btn-primary btn-lg">Large button</button>
+                                <button type="button" class="btn btn-outline btn-primary">Default button</button>
+                                <button type="button" class="btn btn-outline btn-primary btn-sm">Small button</button>
+                                <button type="button" class="btn btn-outline btn-primary btn-xs">Mini button</button>
+                                <br>
+                                <br>
+                                <button type="button" class="btn btn-outline btn-primary btn-lg btn-block">Block level button</button>
+                            </p>
+<pre>
+<code>
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline btn-primary btn-lg&quot;&gt;Large button&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline btn-primary&quot;&gt;Default button&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline btn-primary btn-sm&quot;&gt;Small button&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline btn-primary btn-xs&quot;&gt;Mini button&lt;/button&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline btn-primary btn-lg btn-block&quot;&gt;Block level button&lt;/button&gt;
+</code>
+</pre>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Social Buttons with Font Awesome Icons
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <h4>Social Buttons</h4>
+                            <a class="btn btn-block btn-social btn-bitbucket">
+                                <i class="fa fa-bitbucket"></i> Sign in with Bitbucket
+                            </a>
+                            <a class="btn btn-block btn-social btn-dropbox">
+                                <i class="fa fa-dropbox"></i> Sign in with Dropbox
+                            </a>
+                            <a class="btn btn-block btn-social btn-facebook">
+                                <i class="fa fa-facebook"></i> Sign in with Facebook
+                            </a>
+                            <a class="btn btn-block btn-social btn-flickr">
+                                <i class="fa fa-flickr"></i> Sign in with Flickr
+                            </a>
+                            <a class="btn btn-block btn-social btn-github">
+                                <i class="fa fa-github"></i> Sign in with GitHub
+                            </a>
+                            <a class="btn btn-block btn-social btn-google-plus">
+                                <i class="fa fa-google-plus"></i> Sign in with Google
+                            </a>
+                            <a class="btn btn-block btn-social btn-instagram">
+                                <i class="fa fa-instagram"></i> Sign in with Instagram
+                            </a>
+                            <a class="btn btn-block btn-social btn-linkedin">
+                                <i class="fa fa-linkedin"></i> Sign in with LinkedIn
+                            </a>
+                            <a class="btn btn-block btn-social btn-pinterest">
+                                <i class="fa fa-pinterest"></i> Sign in with Pinterest
+                            </a>
+                            <a class="btn btn-block btn-social btn-tumblr">
+                                <i class="fa fa-tumblr"></i> Sign in with Tumblr
+                            </a>
+                            <a class="btn btn-block btn-social btn-twitter">
+                                <i class="fa fa-twitter"></i> Sign in with Twitter
+                            </a>
+                            <a class="btn btn-block btn-social btn-vk">
+                                <i class="fa fa-vk"></i> Sign in with VK
+                            </a>
+<pre>
+<code>
+&lt;a class=&quot;btn btn-block btn-social btn-bitbucket&quot;&gt;
+&lt;i class=&quot;fa fa-bitbucket&quot;&gt;&lt;/i&gt; Sign in with Bitbucket
+&lt;/a&gt;
+&lt;a class=&quot;btn btn-block btn-social btn-dropbox&quot;&gt;
+&lt;i class=&quot;fa fa-dropbox&quot;&gt;&lt;/i&gt; Sign in with Dropbox
+&lt;/a&gt;
+&lt;a class=&quot;btn btn-block btn-social btn-facebook&quot;&gt;
+&lt;i class=&quot;fa fa-facebook&quot;&gt;&lt;/i&gt; Sign in with Facebook
+&lt;/a&gt;
+&lt;a class=&quot;btn btn-block btn-social btn-flickr&quot;&gt;
+&lt;i class=&quot;fa fa-flickr&quot;&gt;&lt;/i&gt; Sign in with Flickr
+&lt;/a&gt;
+&lt;a class=&quot;btn btn-block btn-social btn-github&quot;&gt;
+&lt;i class=&quot;fa fa-github&quot;&gt;&lt;/i&gt; Sign in with GitHub
+&lt;/a&gt;
+&lt;a class=&quot;btn btn-block btn-social btn-google-plus&quot;&gt;
+&lt;i class=&quot;fa fa-google-plus&quot;&gt;&lt;/i&gt; Sign in with Google
+&lt;/a&gt;
+&lt;a class=&quot;btn btn-block btn-social btn-instagram&quot;&gt;
+&lt;i class=&quot;fa fa-instagram&quot;&gt;&lt;/i&gt; Sign in with Instagram
+&lt;/a&gt;
+&lt;a class=&quot;btn btn-block btn-social btn-linkedin&quot;&gt;
+&lt;i class=&quot;fa fa-linkedin&quot;&gt;&lt;/i&gt; Sign in with LinkedIn
+&lt;/a&gt;
+&lt;a class=&quot;btn btn-block btn-social btn-pinterest&quot;&gt;
+&lt;i class=&quot;fa fa-pinterest&quot;&gt;&lt;/i&gt; Sign in with Pinterest
+&lt;/a&gt;
+&lt;a class=&quot;btn btn-block btn-social btn-tumblr&quot;&gt;
+&lt;i class=&quot;fa fa-tumblr&quot;&gt;&lt;/i&gt; Sign in with Tumblr
+&lt;/a&gt;
+&lt;a class=&quot;btn btn-block btn-social btn-twitter&quot;&gt;
+&lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt; Sign in with Twitter
+&lt;/a&gt;
+&lt;a class=&quot;btn btn-block btn-social btn-vk&quot;&gt;
+&lt;i class=&quot;fa fa-vk&quot;&gt;&lt;/i&gt; Sign in with VK
+&lt;/a&gt;
+</code>
+</pre>
+                <hr>
+                            <div class="text-center">
+                                <a class="btn btn-social-icon btn-bitbucket"><i class="fa fa-bitbucket"></i></a>
+                                <a class="btn btn-social-icon btn-dropbox"><i class="fa fa-dropbox"></i></a>
+                                <a class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a>
+                                <a class="btn btn-social-icon btn-flickr"><i class="fa fa-flickr"></i></a>
+                                <a class="btn btn-social-icon btn-github"><i class="fa fa-github"></i></a>
+                                <a class="btn btn-social-icon btn-google-plus"><i class="fa fa-google-plus"></i></a>
+                                <a class="btn btn-social-icon btn-instagram"><i class="fa fa-instagram"></i></a>
+                                <a class="btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                                <a class="btn btn-social-icon btn-pinterest"><i class="fa fa-pinterest"></i></a>
+                                <a class="btn btn-social-icon btn-tumblr"><i class="fa fa-tumblr"></i></a>
+                                <a class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a>
+                                <a class="btn btn-social-icon btn-vk"><i class="fa fa-vk"></i></a>
+                            </div>
+<pre>
+<code>
+&lt;a class=&quot;btn btn-social-icon btn-bitbucket&quot;&gt;&lt;i class=&quot;fa fa-bitbucket&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class=&quot;btn btn-social-icon btn-dropbox&quot;&gt;&lt;i class=&quot;fa fa-dropbox&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class=&quot;btn btn-social-icon btn-facebook&quot;&gt;&lt;i class=&quot;fa fa-facebook&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class=&quot;btn btn-social-icon btn-flickr&quot;&gt;&lt;i class=&quot;fa fa-flickr&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class=&quot;btn btn-social-icon btn-github&quot;&gt;&lt;i class=&quot;fa fa-github&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class=&quot;btn btn-social-icon btn-google-plus&quot;&gt;&lt;i class=&quot;fa fa-google-plus&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class=&quot;btn btn-social-icon btn-instagram&quot;&gt;&lt;i class=&quot;fa fa-instagram&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class=&quot;btn btn-social-icon btn-linkedin&quot;&gt;&lt;i class=&quot;fa fa-linkedin&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class=&quot;btn btn-social-icon btn-pinterest&quot;&gt;&lt;i class=&quot;fa fa-pinterest&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class=&quot;btn btn-social-icon btn-tumblr&quot;&gt;&lt;i class=&quot;fa fa-tumblr&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class=&quot;btn btn-social-icon btn-twitter&quot;&gt;&lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class=&quot;btn btn-social-icon btn-vk&quot;&gt;&lt;i class=&quot;fa fa-vk&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+</code>
+</pre>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-6 -->
+            </div>
+            <!-- /.row -->
+</div>
+            </div>
+            <!-- /.container-fluid -->
+
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.2.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    
+
+</body>
+
+</html>

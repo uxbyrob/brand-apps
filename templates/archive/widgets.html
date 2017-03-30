@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>IHS Pattern Library - V1</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">    
+    
+    <!-- Custom Fonts -->
+    <!-- <link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="https://cdn.ihs.com/Technology/images/ux/ihs-icon-logo.svg"></a>
+                <a href="index.html"><h2>IHS Pattern Library - Version 1</h2></a>
+            </div>
+            <!-- Top Menu Items -->
+            <ul class="nav navbar-right top-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> <b class="caret"></b></a>
+                    <ul class="dropdown-menu message-dropdown">
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>John Smith</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>John Smith</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>John Smith</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-footer">
+                            <a href="#">Read All New Messages</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <b class="caret"></b></a>
+                    <ul class="dropdown-menu alert-dropdown">
+                        <li>
+                            <a href="#">Alert Name <span class="label label-default">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-primary">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-success">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-info">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-warning">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-danger">Alert Badge</span></a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">View All</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> User Name <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-envelope"></i> Inbox</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-gear"></i> Settings</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                   
+                <ul class="nav navbar-nav side-nav">
+                    <li class="atomic">Atoms</li>
+                    <li>
+                        <a href="colors.html">Colors</a>
+                    </li>
+                    <li>
+                        <a href="typography.html">Typography</a>
+                    </li>
+                    <li>
+                        <a href="buttons.html">Buttons</a>
+                    </li>
+                     <li>
+                        <a href="iconography.html">Icons / Images</a>
+                    </li>
+                    <li>
+                        <a href="forms.html">Forms</a>
+                    </li>
+                    <li>
+                        <a href="tables.html">Tables</a>
+                    </li>
+                    <li class="atomic">Molecules</li>
+                    <li>
+                        <a href="menus-tabs-nav.html">Menus, Tabs, Nav</a>
+                    </li>
+                     <li>
+                        <a href="widgets.html">Widgets</a>
+                    </li>
+                    <li>
+                        <a href="panels-wells.html">Panels and Wells</a>
+                    </li>
+                     <li>
+                        <a href="alerts-modals.html">Alerts and Modals</a>
+                    </li>
+                    <li class="atomic">Organisms</li>
+                    <li>
+                        <a href="patterns.html">Patterns</a>
+                    </li>
+                     <li>
+                        <a href="charts.html">Charts and Graphs</a>
+                    </li>
+                     <li>
+                        <a href="grids.html">Grids</a>
+                    </li>
+                    <li class="atomic">Pages/Templates</li>
+                    <li>
+                        <a href="templates.html">Pages and Templates</a>
+                    </li>
+
+                </ul>            
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+
+        <div id="page-wrapper">
+
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div class="col-lg-12">
+                    <h1 class="page-header">Widgets</h1>
+<!-- <table class="table table-bordered table-hover table-striped">
+<thead>
+<tr>
+<th>Design Pattern Name</th>
+<th>Development Class Name</th>
+<th>Link to Pattern</th>
+<th>Platform</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>IHS-Accordion</td>
+<td><code>ew-accordion panel panel-default / collapse</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>IHS-Calendar</td>
+<td><code>ew-date-picker</code></td>
+<td><a href="http://www.eyecon.ro/bootstrap-datepicker/" target="_blank">Examples</a></td>
+<td></td>
+</tr>
+<tr>
+<td>IHS-Card</td>
+<td><code>ew-card panel</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>IHS-Color-Picker</td>
+<td><code>ew-tile-color-picker</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>IHS-Scroll-Horizontal</td>
+<td>"3D-thick-dark, dark-3"</td>
+<td><a href="http://manos.malihu.gr/repository/custom-scrollbar/demo/examples/scrollbar_themes_demo.html" target="_blank">Examples</a></td>
+<td></td>
+</tr>
+<tr>
+<td>IHS-Scroll-Vertical</td>
+<td>"3D-thick-dark, dark-3"</td>
+<td><a href="http://manos.malihu.gr/repository/custom-scrollbar/demo/examples/scrollbar_themes_demo.html" target="_blank">Examples</a></td>
+<td></td>
+</tr>
+<tr>
+<td>IHS-Skinny-Scroll-Vertical</td>
+<td>"dark"</td>
+<td><a href="http://manos.malihu.gr/repository/custom-scrollbar/demo/examples/scrollbar_themes_demo.html" target="_blank">Examples</a></td>
+<td></td>
+</tr>
+<tr>
+<td>IHS-Tile</td>
+<td><code>ew-tile panel</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>IHS-Tool-Tip</td>
+<td><code>tooltip-demo, data-toggle="tooltip"</code></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table> -->
+</div>
+</div>
+
+<div class="row">
+                    <div class="col-lg-12">
+
+
+
+<code>ihs-calendar and ihs-date-picker</code>
+    
+        <div class="well clearfix">   
+            <div class="form group input-group">
+            <input type="text" class="form-control" value="10/16/2015" data-date-format="mm/dd/yyyy" id="ew-date-picker">
+            <span class="input-group-addon" id="ew-date-picker"><i class="fa fa-calendar"></i></span>
+            </div>
+        </div>
+
+
+<code>ihs-card</code>
+    
+        <div class="well clearfix">
+                <div class="pull-left">
+                <p>Home Page Version</p>
+                    <div class="ew-card IHS-Color-G9 version-home">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h1>Card Title</h1>
+                                <span class="small pull-right">0000000</span>
+                            </div>
+                            <div class="panel-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
+                            </div>
+                            <div class="panel-footer">
+                                <small>Edit</small>
+                                <img class="pull-right" src="https://cdn.ihs.com/Technology/images/ux/ihs-ew-icon-pin-on.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pull-left">
+                <p>My Workspace Version</p>
+                <div class="ew-card IHS-Color-G9 version-workspace">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h1>Card Title 2</h1>
+                            <span class="small pull-right">0000000</span>
+                        </div>
+                        <div class="panel-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
+                        </div>
+                        <div class="panel-footer">
+                            <small>Edit</small>
+                            <img class="pull-right" src="https://cdn.ihs.com/Technology/images/ux/ihs-ew-icon-pin-on.svg">
+                        </div>
+                    </div>
+                </div>
+                </div>
+            
+        </div>
+
+<code>ihs-color-picker</code>
+
+    <div class="well clearfix">
+        <div class="ew-tile-color-picker">
+                    <div class="tile-color-row">
+                        <div class="tile-color-patch tile-color-1">Text</div>
+                        <div class="tile-color-patch tile-color-2">Text</div>
+                    </div>
+                    <div class="tile-color-row">
+                        <div class="tile-color-patch tile-color-3">Text</div>
+                        <div class="tile-color-patch tile-color-4">Text</div>
+                    </div>
+                    <div class="tile-color-row">
+                        <div class="tile-color-patch tile-color-5 seleceted-color">Text</div>
+                        <div class="tile-color-patch tile-color-6">Text</div>
+                    </div>
+                    <div class="tile-color-row">
+                        <div class="tile-color-patch tile-color-7">Text</div>
+                        <div class="tile-color-patch tile-color-8">Text</div>
+                    </div>              
+        </div>
+    </div> 
+
+<code>ihs-scroll</code>
+<div class="sample-content" data-mcs-theme="light-3">
+         <p class="filler">
+         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+         <p>
+         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+         <p>
+         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        </p>
+        <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+        <p>End of content.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p> 
+        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p> 
+        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p> 
+        <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p> 
+        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p> 
+        <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+        <p>End of content.</p>
+</div>
+<code>ihs-scroll-special-use</code>
+<div class="sample-content" data-mcs-theme="dark-3">
+         <p class="filler">
+         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+         </p>
+         <p>
+         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+         </p>
+         <p>
+         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        </p>
+        <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+        </p>
+        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+        </p> 
+        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+        </p> 
+        <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+        <p>End of content.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p> 
+        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p> 
+        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p> 
+        <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p> 
+        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p> 
+        <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+        <p>End of content.</p>
+        </div>
+
+<code>ihs-tile</code>
+
+        <div class="well clearfix">
+            <div class="ew-tile IHS-Color-G9 color-black pull-left">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h2>News</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
+                        <hr class="dashed">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="ew-tile IHS-Color-T7 color-white pull-left">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h2>News</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
+                    </div>
+                </div>
+            </div>
+       
+            <div class="ew-tile IHS-Color-T5 color-white pull-left">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h2>News</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+            
+        <code>IHS-Tile-Bom</code>
+        <div class="tile-center pull-left">
+            <div class="panel-heading">
+                <div class="img-container IHS-Color-T6">
+                    <span class="ihs-icon-boms-2"></span>
+                </div>
+            </div>
+            <div class="panel-body">
+            <h2>BOMs</h2>
+            <ul>
+                <li><a>First Line of Type</a></li>
+                <li><a>Second Line of Type</a></li>
+                <li><a>Third Line of Type</a></li>
+                <li><a>Fourth Line of Type</a></li>
+            </ul>
+            </div>
+        </div>
+
+        <div class="tile-center pull-left">
+            <div class="panel-heading">
+                <div class="img-container IHS-Color-T8">
+                    <span class="ihs-icon-learn-more-2"></span>
+                </div>
+            </div>
+            <div class="panel-body">
+            <h2>LEARN MORE</h2>
+            <ul>
+                <li><a>First Line of Type</a></li>
+                <li><a>Second Line of Type</a></li>
+                <li><a>Third Line of Type</a></li>
+                <li><a>Fourth Line of Type</a></li>
+            </ul>
+            </div>
+        </div>
+        <div class="tile-center pull-left">
+            <div class="panel-heading">
+                <div class="img-container IHS-Color-G12">
+                    <span class="ihs-icon-cpl-2"></span>
+                </div>
+            </div>
+            <div class="panel-body">
+            <h2>CPL</h2>
+            <ul>
+                <li><a>First Line of Type</a></li>
+                <li><a>Second Line of Type</a></li>
+                <li><a>Third Line of Type</a></li>
+            </ul>
+            </div>
+        </div>
+                
+            
+</div>
+   
+
+<div class="row">
+ <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Tooltips and Popovers
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <code>ihs-tooltip</code>
+
+                            <h4>Tooltip Demo</h4>
+                            <div class="tooltip-demo">
+                                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Tooltip on left">Tooltip on left</button>
+                                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Tooltip on top</button>
+                                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom Tooltip on bottom. Tooltip on bottom. Tooltip on bottom. Tooltip on bottom">Tooltip on bottom.</button>
+                                <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Tooltip on right">Tooltip on right</button>
+                            </div>
+                            <br>
+<pre>
+<code>
+&lt;div class=&quot;tooltip-demo&quot;&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;left&quot; title=&quot;Tooltip on left&quot;&gt;Tooltip on left&lt;/button&gt;
+
+&lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;top&quot; title=&quot;Tooltip on top&quot;&gt;Tooltip on top&lt;/button&gt;
+
+&lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;bottom&quot; title=&quot;Tooltip on bottom&quot;&gt;Tooltip on bottom&lt;/button&gt;
+
+&lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;right&quot; title=&quot;Tooltip on right&quot;&gt;Tooltip on right&lt;/button&gt;
+&lt;/div&gt;
+</code>
+</pre>
+                            <h4>Clickable Popover Demo</h4>
+                            <code>ihs-popover</code>
+
+                            <div class="tooltip-demo">
+                                <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="left" data-content="Text that showed up left">
+                                    Popover on left
+                                </button>
+                                <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="top" data-content="Text that showed up at top">
+                                    Popover on top
+                                </button>
+                                <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Text that showed up at bottom">
+                                    Popover on bottom
+                                </button>
+                                <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="right" data-content="Text that showed up right">
+                                    Popover on right
+                                </button>
+                                <button type="button" class="btn btn-warning" data-toggle="popover" title="Popover title" data-content="And here's a great example of a message in panel body">Click to toggle popover</button>
+                            </div>
+                            <br>
+<pre>
+<code>
+&lt;div class=&quot;tooltip-demo&quot;&gt;
+
+&lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot; data-container=&quot;body&quot; data-toggle=&quot;popover&quot; data-placement=&quot;left&quot; data-content=&quot;Vivamus sagittis lacus vel augue laoreet rutrum faucibus.&quot;&gt;
+Popover on left
+&lt;/button&gt;
+
+&lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot; data-container=&quot;body&quot; data-toggle=&quot;popover&quot; data-placement=&quot;top&quot; data-content=&quot;Vivamus sagittis lacus vel augue laoreet rutrum faucibus.&quot;&gt;
+Popover on top
+&lt;/button&gt;
+
+&lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot; data-container=&quot;body&quot; data-toggle=&quot;popover&quot; data-placement=&quot;bottom&quot; data-content=&quot;Vivamus sagittis lacus vel augue laoreet rutrum faucibus.&quot;&gt;
+Popover on bottom
+&lt;/button&gt;
+
+&lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot; data-container=&quot;body&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-content=&quot;Vivamus sagittis lacus vel augue laoreet rutrum faucibus.&quot;&gt;
+Popover on right
+&lt;/button&gt;
+&lt;/div&gt;
+</code>
+</pre>
+</div>
+                        <!-- .panel-body -->
+
+</div>
+                    <!-- /.panel -->
+
+
+<div class="row">
+<code>ihs-carousel</code>
+<!-- <div class="background" style="height: 388px; width: 1426px;">
+                    <img src="/api/binary/578407" style="display: none;">
+                    <img src="/api/binary/460822" style="display: inline;">
+                    <img src="/api/binary/551045" style="display: none;"> 
+
+
+        </div>-->
+    <div id="myCarousel" class="carousel slide">
+   
+       <!-- Carousel indicators -->
+       <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+       </ol>   
+       
+       <!-- Carousel items -->
+       <div class="carousel-inner">
+          <div class="item active">
+             <div class="carousel-content-left">
+             <h2>The Evolving Internet of Things (IoT)</h2>
+             <p class="shim-bottom">Leveraging its unique breadth of industry research, IHS Technology offers the most comprehensive insights and analysis of the IoT evolution.</p>
+             <a class="btn btn-default btn-sm shim-right-short" href="https://technology.ihs.com/577019">Learn More</a>
+             <a class="btn btn-default btn-sm" href="https://technology.ihs.com/577019">Learn More 2</a>
+            </div> 
+            <div class="carousel-content-right">
+                <img src="http://placehold.it/368x150" alt="First slide">
+            </div>
+          </div>
+          
+          <div class="item">
+              <div class="carousel-content-left">
+             <h2>Analysis, information and expertise</h2>
+             <p>IHS Technology provides analysis, data and expertise on everything from raw materials to networks to consumers.</p>
+             <a class="btn btn-default btn-sm" href="https://technology.ihs.com/Research-by-Market">Research by Market</a>
+             </div> 
+             <div class="carousel-content-right">
+                <img src="http://placehold.it/368x150" alt="second slide">
+            </div>
+          </div>
+          <div class="item">
+            <div class="carousel-content-left">
+             <h2>IHS Technology Blog</h2>
+             <p>Check out the new Technology Blog for unique insights on technology, 
+        media and telecommunications from our team of thought leaders.</p>
+        <a class="btn btn-default btn-sm" href="http://blog.ihs.com/ihs-technology">Join the Conversation</a>
+             </div> 
+             <div class="carousel-content-right">
+                <img src="http://placehold.it/368x150" alt="third slide">
+            </div>
+          </div>
+        </div>
+</div> 
+
+<br>
+
+<code>ihs-shuttle (w/list controls)</code>
+    <div class="dual-list clearfix">
+        <p>Hold down shift key to select multiple items. Use cmd+A to select all.</p>
+        <div class="container">
+            <ul class="list-group">
+                <li class="list-group-item"><a href="#">Action</a></li>
+                <li class="list-group-item"><a href="#">Another action</a></li>
+                <li class="list-group-item"><a href="#">Something else here</a></li>
+                <li class="list-group-item"><a href="#">Separated link</a></li>
+            </ul>
+             <!--<div class="form-group">
+            <select id="select1" class="form-control" multiple size="8">
+                <option>Imported Manufacturer Name</option>
+                <option>option 1</option>
+                <option>option 2</option>
+                <option>option 3</option>
+                <option>option 4</option>
+                <option>option 5</option>
+                <option>option 1</option>
+                <option>option 2</option>
+                <option>option 3</option>
+                <option>option 4</option>
+                <option>option 5</option>
+            </select> 
+            </div>-->
+        </div>
+
+        <div class="button-container">
+            <button id="add" class="btn btn-default">
+                <span class="ihs-icon-arrow rotate-180"></span>
+            </button>
+            <button id="remove" class="btn btn-deemphasized">
+                <span class="ihs-icon-arrow"></span>
+            </button>
+        </div>
+
+        <div class="container">
+            <ul class="list-group">
+                    <li class="list-group-item"><a href="#">Action</a></li>
+                    <li class="list-group-item"><a href="#">Another action</a></li>
+                    <li class="list-group-item"><a href="#">Something else here</a></li>
+                    <li class="list-group-item"><a href="#">Separated link</a></li>
+            </ul>
+            <!-- <div class="form-group">
+            <select id="select2" class="form-control" multiple size="8">
+                <option>Another Name</option>
+                <option>option 1</option>
+                <option>option 2</option>
+                <option>option 3</option>
+                <option>option 4</option>
+                <option>option 5</option>
+            </select>
+            </div> -->
+        </div>
+    </div>
+</div>
+
+<div class="row dont-show">
+<code>ihs-shuttle (w/list controls)</code>
+    <div class="dual-list">
+        <p>Hold down shift key to select multiple items. Use cmd+A to select all.</p>
+        <div class="list-left col-md-5">
+            <div class="text-right"> 
+                <ul class="list-group">
+                    <li class="list-group-item">bootstrap-duallist <a href="https://github.com/bbilginn/bootstrap-duallist" target="_blank">github</a></li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="col-md-1 text-center">
+            <button class="btn btn-default move-right">
+                <span class="ihs-icon-arrow rotate-180"></span>
+            </button>
+            <button class="btn btn-deemphasized move-left">
+                <span class="ihs-icon-arrow"></span>
+            </button>
+        </div>
+
+        <div class="list-right col-md-5">
+            <div>
+                <ul class="list-group">
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+ 
+  <div class="dont-show">                                
+
+<hr class="pl">
+                    <!-- Badges -->
+                    <h2>Badges</h2>
+                      <p>
+                        <a href="#">Inbox <span class="badge">42</span></a>
+                      </p>
+                      <ul class="nav nav-pills" role="tablist">
+                        <li role="presentation" class="active"><a href="#">Home <span class="badge">42</span></a></li>
+                        <li role="presentation"><a href="#">Profile</a></li>
+                        <li role="presentation"><a href="#">Messages <span class="badge">3</span></a></li>
+                      </ul>
+<p></p>
+<pre>
+<code>
+&lt;p&gt;
+&lt;a href=&quot;#&quot;&gt;Inbox &lt;span class=&quot;badge&quot;&gt;42&lt;/span&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;ul class=&quot;nav nav-pills&quot; role=&quot;tablist&quot;&gt;
+&lt;li role=&quot;presentation&quot; class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;Home &lt;span class=&quot;badge&quot;&gt;42&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li role=&quot;presentation&quot;&gt;&lt;a href=&quot;#&quot;&gt;Profile&lt;/a&gt;&lt;/li&gt;
+&lt;li role=&quot;presentation&quot;&gt;&lt;a href=&quot;#&quot;&gt;Messages &lt;span class=&quot;badge&quot;&gt;3&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</code>
+</pre>
+                    
+                    </div>
+                </div>
+</div>
+            </div>
+            <!-- /.container-fluid -->
+
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.2.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Calendar / Date Picker -->
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/bootstrap-select.js"></script> 
+
+    <script>
+        $( document ).ready(
+
+
+        $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+        $('[data-toggle="popover"]').popover();
+        $("#accordion .panel-body").mCustomScrollbar({
+            setHeight:250,
+            theme:"dark-3"});
+    })
+
+    );
+
+    (function($){
+        $(window).load(function(){
+            $(".sample-content").mCustomScrollbar({
+                axis:"xy",
+                theme:"dark-3",
+                scrollButtons:{
+                    enable:true
+                }
+            });
+        });
+    })(jQuery);   
+
+    $().ready(function() {  
+         $('#add').click(function() {  
+          return !$('#select1 option:selected').remove().appendTo('#select2');  
+         });  
+         $('#remove').click(function() {  
+          return !$('#select2 option:selected').remove().appendTo('#select1');  
+         });  
+    });    
+
+
+     /*
+     $('.select-menu').bootstrapSelect({
+        'button-style': 'btn-primary'
+    });
+    */
+
+
+    /*
+    var nowTemp=new Date();
+    var now=new Date(nowTemp.getFullYear(), nowTemp.getMonth(), nowTemp.getDate(), 0, 0, 0, 0);
+ 
+    var checkin=$('#ew-datepicker').datepicker({
+        onRender: function(date) {
+        return date.valueOf() < now.valueOf() ? 'disabled' : '';
+        }
+    }).on('changeDate', function(ev) {
+    if (ev.date.valueOf() > checkout.date.valueOf()) {
+        var newDate=new Date(ev.date)
+        newDate.setDate(newDate.getDate() + 1);
+        checkout.setValue(newDate);
+    }
+    checkin.hide();*/
+
+    /*
+    $('#ew-datepicker').datepicker()
+          .on('changeDate', function(ev){
+
+            if (ev.date.valueOf() < startDate.valueOf()){
+              ....
+            }
+    });*/
+
+    var nowTemp=new Date();
+    var now=new Date(nowTemp.getFullYear(), nowTemp.getMonth(), nowTemp.getDate(), 0, 0, 0, 0);
+ 
+    var checkin=$('#ew-date-picker').datepicker({
+        onRender: function(date) {
+        return date.valueOf() < now.valueOf() ? 'disabled' : '';
+         }
+        }).on('changeDate', function(ev) {
+          if (ev.date.valueOf() > checkout.date.valueOf()) {
+            var newDate=new Date(ev.date)
+            newDate.setDate(newDate.getDate() + 1);
+            checkout.setValue(newDate);
+          }
+         checkin.hide();
+   }).data('datepicker');
+
+
+    // Dual List Selector 
+
+            $(function () {
+
+            $('body').on('click', '.list-group .list-group-item', function () {
+                $(this).toggleClass('active');
+            });
+            $('.list-arrows button').click(function () {
+                var $button=$(this), actives='';
+                if ($button.hasClass('move-left')) {
+                    actives=$('.list-right ul li.active');
+                    actives.clone().appendTo('.list-left ul');
+                    actives.remove();
+                } else if ($button.hasClass('move-right')) {
+                    actives=$('.list-left ul li.active');
+                    actives.clone().appendTo('.list-right ul');
+                    actives.remove();
+                }
+            });
+            $('.dual-list .selector').click(function () {
+                var $checkBox=$(this);
+                if (!$checkBox.hasClass('selected')) {
+                    $checkBox.addClass('selected').closest('.well').find('ul li:not(.active)').addClass('active');
+                    $checkBox.children('i').removeClass('glyphicon-unchecked').addClass('glyphicon-check');
+                } else {
+                    $checkBox.removeClass('selected').closest('.well').find('ul li.active').removeClass('active');
+                    $checkBox.children('i').removeClass('glyphicon-check').addClass('glyphicon-unchecked');
+                }
+            });
+            $('[name="SearchDualList"]').keyup(function (e) {
+                var code=e.keyCode || e.which;
+                if (code == '9') return;
+                if (code == '27') $(this).val(null);
+                var $rows=$(this).closest('.dual-list').find('.list-group li');
+                var val=$.trim($(this).val()).replace(/ +/g, ' ').toLowerCase();
+                $rows.show().filter(function () {
+                    var text=$(this).text().replace(/\s+/g, ' ').toLowerCase();
+                    return !~text.indexOf(val);
+                }).hide();
+            });
+
+            
+
+        });
+
+   
+    </script>
+    
+
+</body>
+
+</html>

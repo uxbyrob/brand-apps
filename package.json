@@ -1,0 +1,12 @@
+{
+  "name": "csspatternlibrary",
+  "version": "0.0.2",
+  "description": "IHS Styles library based on Bootstrap",
+  "style": "./css/styles.css",
+  "publishConfig" : {
+    "registry" : "http://npm-na.ihs.com/repository/technology-npm/"
+  },
+  "dependencies": {
+
+  }
+}

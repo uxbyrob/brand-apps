@@ -1,0 +1,1 @@
+$(function(){var n=$("#ihs-calendar-input").datepicker().on("changeDate",function(a){n.hide()}).data("datepicker");$("#ihs-calendar-icon").on("click",function(a){n.show()})});

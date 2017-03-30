@@ -1,409 +1,228 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
-
 .container-test {
-    max-width: 1024px;
-    margin: 0px auto;
+  max-width: 1024px;
+  margin: 0px auto;
 }
-
 .container-width-x {
-    width: 1024px;
-    margin: 0 auto;
+  width: 1024px;
+  margin: 0 auto;
 }
-
 .demo-site-links li {
-    margin: 10px 5px 10px 25px;
-    padding: 15px 10px 15px 15px;
-    border: 1px solid #ccc;
-    width: 300px;
-    background-color: #f4f4f4;
-    font-size: 14px;
-    //display: inline-block;
+  margin: 10px 5px 10px 25px;
+  padding: 15px 10px 15px 15px;
+  border: 1px solid #ccc;
+  width: 300px;
+  background-color: #f4f4f4;
+  font-size: 14px;
 }
-
-.ihs-header {
-    background-color: #fff;
-    color: #4c4b4c;
-    border: 0px solid red !important;
-}
-
-.ihs-header > .clearfix {
-    height: 66px;
-    width: 100% !important;
-}
-
 .screenshot {
-    margin: 0px auto;
-    border: 0px solid;
-    max-width: 1024px;
+  margin: 0px auto;
+  border: 0px solid;
+  max-width: 1024px;
 }
-
-.brand {
-    font-family: 'Source Sans Pro', sans-serif;
-    height: 66px;
-}
-
-.brand > .ihs-logo {
-    width: 35px;
-    height: 35px;
-    display: inline-block;
-    margin: 16px 9px 16px 16px;
-    //vertical-align: middle;
-    float: left;
-}
-
-.brand > h1 {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    margin: 0px;
-    color:  #4c4b4c;
-    font-weight: normal;
-    font-size: 22px;
-    white-space: nowrap;
-}
-
-.brand span, .brand small {
-    font-size: 12px;
-    color: #999;
-    font-weight: 300;
-}
-
-.brand small {
-    margin-top: 4px;
-    display: block;
-    font-weight: 800;
-    color: #4c4b4c;
-}
-
-.ihs-header .icon-set .icon-area {
-    border: 1px solid #fff !important;
-    padding: 0px 23px;
-    height: 66px;
-}
-.ihs-header .icon-set .icon-area:hover {
-    border: 1px solid #ccc !important;
-    padding: 0px 23px;
-    height: 66px;
-}
-
-
-.icon-set {
-    //margin-right: 16px;
-    //height: 64px;
-}
-.icon-set > .icon-area.active {
-    border: 1px solid #ccc !important;
-}
-.icon-set > .icon-area:last-child,
-.icon-set > .icon-area:last-child:hover{
-    margin-right: 6px;
-    padding-right: 12px;
-    
-}
-.icon-set .icon-area .icon-menu {
-    padding-top: 0px !important;
-    line-height: 66px;
-}
-.icon-set .icon-area > .icon-menu {
-    color: #4c4b4c !important;
-}
-.icon-set .icon-area:hover > .icon-menu {
-    color: #4c4b4c !important;
-}
-.icon-set .search-area {
-    width: 300px;
-    top: 23px;
-    right: 24px;
-}
-
-.icon-area:hover > .icon-menu:after,
-.icon-area.active > .icon-menu:after{
-    position: absolute;
-    bottom: -1px;
-    width: 100%;
-    height: 1px;
-    content: '';
-    left: 0;
-    right: 0;
-    background-color: #fff;
-    z-index: 5000;
-}
-
-.icon-menu > [class^=ihs-icon-]{
-    vertical-align: middle;
-}
-
-.ihs-header .icon-set .icon-area .icon-menu>.greeting {
-    padding-left: 8px;
-    vertical-align: middle;
-}
-
-.search-group .btn-icon {
-    background: -webkit-linear-gradient(-75deg, #08AC4B,#328F8A); 
-}
-
 .ihs-menu.navbar-nav {
-    height: 24px;
-    border: 0px;
+  height: 24px;
+  border: 0px;
 }
 .ihs-menu.navbar-nav li {
-    border-radius: 0px;
+  border-radius: 0px;
 }
-
 .ihs-menu.navbar-blue {
-    background-color: #0066B3;
-    color: white;
+  background-color: #0066B3;
+  color: white;
 }
 .ihs-menu.navbar-blue li,
-.ihs-menu.navbar-blue li a{
-    height: 24px;
+.ihs-menu.navbar-blue li a {
+  height: 24px;
 }
 .ihs-menu.navbar-blue li:hover,
 .ihs-menu.navbar-blue li a:hover {
-    background-color: #0B507F;
+  background-color: #0B507F;
 }
 .ihs-menu.navbar-blue li.active,
-.ihs-menu.navbar-blue li.active a{
-    background-color: #0B507F;
-    color: white;
-    border-top: solid 2px #ff8f1c;
-    top: -2px;
-    height: 26px;
+.ihs-menu.navbar-blue li.active a {
+  background-color: #0B507F;
+  color: white;
+  border-top: solid 2px #ff8f1c;
+  top: -2px;
+  height: 26px;
 }
 .ihs-menu.navbar-blue li.active a:hover,
-.ihs-menu.navbar-blue li.active a:focus{
-    background-color: #0B507F;
-    color: white;
+.ihs-menu.navbar-blue li.active a:focus {
+  background-color: #0B507F;
+  color: white;
 }
-
-
 .ihs-menu.navbar-turquoise {
-    background-color: #00719d;
+  background-color: #00719d;
 }
 .ihs-menu.navbar-turquoise li,
-.ihs-menu.navbar-turquoise li a{
-    height: 24px;
+.ihs-menu.navbar-turquoise li a {
+  height: 24px;
 }
 .ihs-menu.navbar-turquoise li:hover,
 .ihs-menu.navbar-turquoise li a:hover {
-    background-color: #0097d1;
+  background-color: #0097d1;
 }
 .ihs-menu.navbar-turquoise li.active,
-.ihs-menu.navbar-turquoise li.active a{
-    background-color: #0097d1;
-    color: white;
-    border-top: solid 2px #ff8f1c;
-    top: -2px;
-    height: 26px;
+.ihs-menu.navbar-turquoise li.active a {
+  background-color: #0097d1;
+  color: white;
+  border-top: solid 2px #ff8f1c;
+  top: -2px;
+  height: 26px;
 }
 .ihs-menu.navbar-turquoise li.active a:hover,
-.ihs-menu.navbar-turquoise li.active a:focus{
-    background-color: #0097d1;
-    color: white;
+.ihs-menu.navbar-turquoise li.active a:focus {
+  background-color: #0097d1;
+  color: white;
 }
-
 .ihs-menu.navbar-grey {
-    background-color: #999999;
+  background-color: #999999;
 }
 .ihs-menu.navbar-grey li,
-.ihs-menu.navbar-grey li a{
-    height: 24px;
+.ihs-menu.navbar-grey li a {
+  height: 24px;
 }
 .ihs-menu.navbar-grey li:hover,
 .ihs-menu.navbar-grey li a:hover {
-    background-color: #4c4b4c;
+  background-color: #4c4b4c;
 }
 .ihs-menu.navbar-grey li.active,
-.ihs-menu.navbar-grey li.active a{
-    background-color: #4c4b4c;
-    color: white;
-    border-top: solid 2px #ff8f1c;
-    top: -2px;
-    height: 26px;
+.ihs-menu.navbar-grey li.active a {
+  background-color: #4c4b4c;
+  color: white;
+  border-top: solid 2px #ff8f1c;
+  top: -2px;
+  height: 26px;
 }
 .ihs-menu.navbar-grey li.active a:hover,
-.ihs-menu.navbar-grey li.active a:focus{
-    background-color: #4c4b4c;
-    color: white;
+.ihs-menu.navbar-grey li.active a:focus {
+  background-color: #4c4b4c;
+  color: white;
 }
-
-.ihs-menu.navbar-black  {
-    background-color: #000000;
+.ihs-menu.navbar-black {
+  background-color: #000000;
 }
 .ihs-menu.navbar-black li,
-.ihs-menu.navbar-black li a{
-    height: 24px;
+.ihs-menu.navbar-black li a {
+  height: 24px;
 }
 .ihs-menu.navbar-black li a {
-    padding: 5px 12px;
+  padding: 5px 12px;
 }
 .ihs-menu.navbar-black li:hover,
 .ihs-menu.navbar-black li a:hover {
-    background-color: #E5E5E5;
-    color: black;
+  background-color: #E5E5E5;
+  color: black;
 }
 .ihs-menu.navbar-black li.active,
-.ihs-menu.navbar-black li.active a{
-    background-color: #E5E5E5;
-    color: black;
-    border-top: solid 2px #ff8f1c;
-    top: -2px;
-    height: 26px;
+.ihs-menu.navbar-black li.active a {
+  background-color: #E5E5E5;
+  color: black;
+  border-top: solid 2px #ff8f1c;
+  top: -2px;
+  height: 26px;
 }
 .ihs-menu.navbar-black li.active a:hover,
-.ihs-menu.navbar-black li.active a:focus{
-    background-color: #E5E5E5;
-    color: black;
+.ihs-menu.navbar-black li.active a:focus {
+  background-color: #E5E5E5;
+  color: black;
 }
-
-
-.search-group .ihs-icon-arrow {
-    font-size: 9px;
-    margin: 0;
-}
-
-.search-group .form-control.short {
-    padding: 12px 8px 10px 8px;
-}
-
-.search-group ul li:hover,
-.dropdown-menu>li>a:focus, 
-.dropdown-menu>li>a:hover {
-    background-color: #999;
-}
-
-.dropdown-menu>li>a {
-    padding: 3px 16px;
-}
-
-.dropdown-menu .menu-links li:hover {
-    background-color: #999999;
-}
-
-.dropdown-menu hr {
-    margin: 8px -16px 8px -16px;
-}
-
-.dropdown-menu ul hr {
-    margin: 8px 0px 8px 0px;
-}
-
 .footer {
-    background-color: #4c4b4c;
-    height: 64px;
-    padding: 14px 16px;
-    color: white;
+  background-color: #4c4b4c;
+  height: 64px;
+  padding: 14px 16px;
+  color: white;
 }
-
 .footer.footer-small {
-    height: 24px;
-    padding: 4px 16px;
+  height: 24px;
+  padding: 4px 16px;
 }
-
 .footer.footer-expanded {
-    height: 96px;
-    padding: 8px 16px;
+  height: 96px;
+  padding: 8px 16px;
 }
-
 .footer h1 {
-    font-family: 'Source Sans Pro', sans-serif;
-    color: white;
-    font-size: 20px;
-    font-weight: 100;
-    float: right;
-    margin: 8px 0px 0px 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+  float: right;
+  margin: 8px 0px 0px 5px;
 }
-
 /*.footer > div, .footer ul {
     border: 1px solid red;
 }*/
-
 .footer .social-icons i {
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-    background-color: #999;
-    border-radius: 30px;
-    font-size: 14px;
-    color: #fff;
-    text-align: center;
-    line-height: 24px;
-    margin-right: 4px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-color: #999;
+  border-radius: 30px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  line-height: 24px;
+  margin-right: 4px;
 }
-
 .footer .social-icons {
-    padding: 3px 0px;
-    border-right: 1px solid #fff;
-    display: inline-block;
-    padding-right: 28px;
-    margin-right: 32px;
-    vertical-align: middle;
+  padding: 3px 0px;
+  border-right: 1px solid #fff;
+  display: inline-block;
+  padding-right: 28px;
+  margin-right: 32px;
+  vertical-align: middle;
 }
-
 .footer .copyright-links {
   display: inline-block;
   vertical-align: middle;
 }
-
 .footer .logo {
-    display: inline-block;
-    vertical-align: middle;
+  display: inline-block;
+  vertical-align: middle;
 }
-
 .footer .ihs-logo {
-    background: url("../img/ihs-logo-white.png") no-repeat;
-    width: 37px;
-    height: 37px;
-    float: left;
+  background: url("../img/branding/ihs-logo-white.png") no-repeat;
+  width: 37px;
+  height: 37px;
+  float: left;
 }
-
 .footer ul {
-    float: none;
-    margin: 0px;
-    padding: 0px;
+  float: none;
+  margin: 0px;
+  padding: 0px;
 }
-
 .footer-expanded .copyright-links ul {
-    margin-top:  34px;
+  margin-top: 34px;
 }
-
 .footer-expanded small {
-    display: block;
+  display: block;
 }
-
 .footer-expanded .logo,
-.footer-small .logo{
-    margin-top: 34px;
+.footer-small .logo {
+  margin-top: 34px;
 }
-
 .footer-expanded span[class*="ihs-icon-"],
-
-.footer-small span[class*="ihs-icon-"]{
-    font-size: 14px;
-    position: absolute;
-    right: 16px;
-    top: 6px;
-    //padding: 4px 4px 4px 4px;
-    cursor: pointer;
+.footer-small span[class*="ihs-icon-"] {
+  font-size: 14px;
+  position: absolute;
+  right: 16px;
+  top: 6px;
+  cursor: pointer;
 }
-
-
 .icons-holder {
-    padding: 16px 16px 16px 30px;
+  padding: 16px 16px 16px 30px;
 }
-
 .icons-sized {
-    font-size: 16px;
+  font-size: 16px;
 }
-
-@media (max-width:768px) {
-    .icon-set, .navbar-nav {
-        margin: 0;
-        float: right;
-    }
+@media (max-width: 768px) {
+  .icon-set,
+  .navbar-nav {
+    margin: 0;
+    float: right;
+  }
 }
-
-
 /* Header //////////////////////
 34px to baseline of text
 
@@ -412,32 +231,26 @@ margin 16px per side
 Full format - 100% responsive?
 Web format - 1024 max width
 */
-
 /* Logo 35px X 35px
 header - green default logo
 footer - white logo
 vertically centered
 */
-
 /* Product Name 
 22px Source Sans Pro Regular Dark Gray (HEX #4c4b4c) Centered in vertical space
 */
-
 /* Version Number
 12px Source Sans Pro Light Light Gray (HEX 999999) 
 1px after product name, same line
 */
-
 /* Historical Branding "By IHS Markit"
 12px Source Sans Pro italic Light Gray (HEX 999999)
 6px below main product name
 */
-
 /* Active Navigation
 bar 2px tall, width of button Orange (HEX #ff8f1c)
 On click the active indicator pops on
 */
-
 /* Navigation text/bar
 12px ALL CAPS Arial Regular White (HEX #fff)
 Centered in vertical space
@@ -445,7 +258,6 @@ Left and right margins of 16px
 Words 32px apart
 Bar 24px tall
 */
-
 /* Search button/bar
 gradient background. 
 Linear-gradient(75deg,#08ac4b,#328f8a)
@@ -456,7 +268,6 @@ vertical-align: middle;
 padding-top: 23px;
 padding-right: 24px;
 */
-
 /* Header Icons
 18px X 18px Dark Gray (HEX 4c4b4c) Hover ihs-color-h1
 48px apart
@@ -464,18 +275,15 @@ User Icon to name 16px apart
 Last icon is 12px from Right Side
 Icon Area has margin of 6px from left hand browser edge
 */
-
 /* Navbar Colors
 Blue/Default - Navbar #0066B3, Hover #0B507F
 Black -   Navbar #000000, Hover #E5E5E5
 Turquoise Navbar #00719d, Hover #0097d1
 Grey -    Navbar #999999, Hover #4c4b4c
 */
-
 /* States
 Not logged in - user icon is outlined
 */
-
 /* Footer
 16px horiz padding 
 background color - Dark Gray (HEX #4c4b4c)

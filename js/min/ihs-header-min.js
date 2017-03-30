@@ -1,0 +1,1 @@
+$(function(){$(".brand").click(function(){return window.location=$(this).attr("data-href"),!1}),$(".menu-links li a").click(function(){$(".dropdown-menu").dropdown("toggle")})});

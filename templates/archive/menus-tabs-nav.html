@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>IHS Pattern Library - V1</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/styles.css">    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="https://cdn.ihs.com/Technology/images/ux/ihs-icon-logo.svg"></a>
+                <a href="index.html"><h2>IHS Pattern Library - Version 1</h2></a>
+            </div>
+            
+            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                
+                <ul class="nav navbar-nav side-nav">
+                    <li class="atomic">Atoms</li>
+                    <li>
+                        <a href="colors.html">Colors</a>
+                    </li>
+                    <li>
+                        <a href="typography.html">Typography</a>
+                    </li>
+                    <li>
+                        <a href="buttons.html">Buttons</a>
+                    </li>
+                     <li>
+                        <a href="iconography.html">Icons / Images</a>
+                    </li>
+                    
+                    <li>
+                        <a href="forms.html">Forms</a>
+                    </li>
+                    <li>
+                        <a href="tables.html">Tables</a>
+                    </li>
+                    <li class="atomic">Molecules</li>
+                    <li>
+                        <a href="menus-tabs-nav.html">Menus, Tabs, Nav</a>
+                    </li>
+                     <li>
+                        <a href="widgets.html">Widgets</a>
+                    </li>
+                    <li>
+                        <a href="panels-wells.html">Panels and Wells</a>
+                    </li>
+                     <li>
+                        <a href="alerts-modals.html">Alerts and Modals</a>
+                    </li>
+                     
+                    <li class="atomic">Organisms</li>
+                    <li>
+                        <a href="patterns.html">Patterns</a>
+                    </li>
+                     <li>
+                        <a href="charts.html">Charts and Graphs</a>
+                    </li>
+                     <li>
+                        <a href="grids.html">Grids</a>
+                    </li>
+                    <li class="atomic">Pages/Templates</li>
+                    <li>
+                        <a href="templates.html">Pages and Templates</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+
+        <div id="page-wrapper">
+
+            <div class="container-fluid">
+                         <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header">Menus, Tabs and Navigation</h1>
+  <!-- <table class="table table-bordered table-hover table-striped">
+<thead>
+<tr>
+<th>Design Pattern Name</th>
+<th>Development Class Name</th>
+<th>Link to Pattern</th>
+<th>Platform</th>
+</tr>
+</thead>
+<tbody>                          
+<tr>
+<td>IHS-Pagination-Short-More</td>
+<td><code>pagination short</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>IHS-Pagination-Short-Less</td>
+<td><code>pagination short</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>IHS-Pagination-Standard-More</td>
+<td><code>pagination</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>IHS-Pagination-Standard-Less</td>
+<td><code>pagination</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>IHS-Tabbed-Sub-Nav</td>
+<td><code>nav nav-tabs, tab-content, tab-pane</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><em>IHS-Tabbed-Sub-Nav-Icons</em></td>
+<td><code>nav nav-tabs,  tab-content, tab-pane, icon-"x"</code></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table> -->
+
+                   </div>
+                <!-- /.col-lg-12 -->
+
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+
+<!-- Pagination -->
+<div class="page-header">
+                    <h1>Pagination</h1>
+</div>
+                    <p>Pagination can be applied to any unordered list using the pagination class.</p>
+                    <code>ihs-pagination-standard-less</code>
+                    <p>Standard Pagination</p>
+                     <nav>
+            <ul class="pagination">
+                <li><a href="#"><span class="ihs-icon-chevron"></span></a></li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#" aria-label="Next"><span class="ihs-icon-chevron rotate-180"></span></a></li>
+            </ul>
+        </nav> 
+        <code>ihs-pagination-standard-more</code>
+                    <p>Advanced Pagination</p>
+        <nav>
+            <ul class="pagination">
+                <li><a href="#"><span class="ihs-icon-chevron-full"></span></a></li>
+                <li><a href="#"><span class="ihs-icon-chevron"></span></a></li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+                <li><a href="#">7</a></li>
+                <li><a href="#">8</a></li>
+                <li><a href="#">9</a></li>
+                <li><a href="#">10</a></li>
+                <li><a href="#"><span class="ihs-icon-chevron rotate-180"></span></a></li>
+                <li><a href="#"><span class="ihs-icon-chevron-full rotate-180"></span></a></li>
+            </ul>
+        </nav> 
+                    <code>ihs-pagination-short-less</code>
+                    <p>Short or Small version of Pagination</p>
+        <nav>
+            <ul class="pagination short small">
+                <li><a href="#"><span class="ihs-icon-chevron"></span></a></li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#"><span class="ihs-icon-chevron rotate-180"></span></a></li>
+            </ul>
+        </nav> 
+         <code>ihs-pagination-short-more</code>
+                    <p>Short or Small version of Advanced Pagination</p>
+        <nav>
+            <ul class="pagination short small">
+                <li><a href="#"><span class="ihs-icon-chevron-full"></span></a></li>
+                <li><a href="#"><span class="ihs-icon-chevron"></span></a></li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+                <li><a href="#">7</a></li>
+                <li><a href="#">8</a></li>
+                <li><a href="#">9</a></li>
+                <li><a href="#">10</a></li>
+                <li><a href="#"><span class="ihs-icon-chevron rotate-180"></span></a></li>
+                <li><a href="#"><span class="ihs-icon-chevron-full rotate-180"></span></a></li>
+            </ul>
+        </nav>                                   
+<pre>
+<code>
+&lt;nav&gt;
+&lt;ul class=&quot;pagination&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot; aria-label=&quot;Previous&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;fa fa-chevron&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot; aria-label=&quot;Next&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;fa fa-chevron-right&quot;&gt;&amp;raquo;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+
+
+&lt;nav&gt;
+&lt;ul class=&quot;pagination small&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot; aria-label=&quot;Previous&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;fa fa-chevron&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot; aria-label=&quot;Next&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;fa fa-chevron-right&quot;&gt;&amp;raquo;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+</code>
+</pre>
+<div class="page-header">
+                    <h1>Tabs</h1>
+ </div>               
+                      
+                    </div>
+                </div>
+ <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Basic Tabs
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <code>ihs-tabbed-sub-nav</code>
+                            <div class="panel panel-default">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#home" data-toggle="tab">Home</a>
+                                </li>
+                                <li><a href="#profile" data-toggle="tab">Profile</a>
+                                </li>
+                                <li><a href="#messages" data-toggle="tab">Messages</a>
+                                </li>
+                                <li><a href="#settings" data-toggle="tab">Settings</a>
+                                </li>
+                            </ul>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div class="tab-pane fade in active" id="home">
+                                    <h4>Home Tab</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                                <div class="tab-pane fade" id="profile">
+                                    <h4>Profile Tab</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                                <div class="tab-pane fade" id="messages">
+                                    <h4>Messages Tab</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                                <div class="tab-pane fade" id="settings">
+                                    <h4>Settings Tab</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                            </div>
+                            </div>
+                        
+                       
+<pre>
+<code>
+&lt;div class=&quot;panel panel-default&quot;&gt;
+&lt;div class=&quot;panel-heading&quot;&gt;
+Basic Tabs
+&lt;/div&gt;
+&lt;!-- /.panel-heading --&gt;
+&lt;div class=&quot;panel-body&quot;&gt;
+
+&lt;!-- Nav tabs --&gt;
+&lt;ul class=&quot;nav nav-tabs&quot;&gt;
+&lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#home&quot; data-toggle=&quot;tab&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#profile&quot; data-toggle=&quot;tab&quot;&gt;Profile&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#messages&quot; data-toggle=&quot;tab&quot;&gt;Messages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#settings&quot; data-toggle=&quot;tab&quot;&gt;Settings&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- Tab panes --&gt;
+&lt;div class=&quot;tab-content&quot;&gt;
+
+&lt;div class=&quot;tab-pane fade in active&quot; id=&quot;home&quot;&gt;
+&lt;h4&gt;Home Tab&lt;/h4&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tab-pane fade&quot; id=&quot;profile&quot;&gt;
+&lt;h4&gt;Profile Tab&lt;/h4&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tab-pane fade&quot; id=&quot;messages&quot;&gt;
+&lt;h4&gt;Messages Tab&lt;/h4&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tab-pane fade&quot; id=&quot;settings&quot;&gt;
+&lt;h4&gt;Settings Tab&lt;/h4&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- /.panel-body --&gt;
+&lt;/div&gt;
+</code>
+</pre>
+</div>
+ <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-6 -->
+                
+            </div>
+            <!-- /.row -->
+
+            </div>
+            <!-- /.container-fluid -->
+
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.2.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    
+
+</body>
+
+</html>

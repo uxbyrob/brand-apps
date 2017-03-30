@@ -1,0 +1,1 @@
+$(function(){$(".folder-checkbox").each(function(){$(this).is(":checked")&&$(this).parent().parent().addClass("selected")}),$(".folder-checkbox").change(function(){$(this).parent().parent().toggleClass("selected")})});

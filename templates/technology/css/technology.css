@@ -1,0 +1,112 @@
+.mega-menu {
+  background-color: #404041;
+  color: #FFFFFF;
+  padding: 32px 16px;
+  width: 100%;
+  position: absolute;
+  top: 82px;
+  z-index: 1000;
+}
+.mega-menu .container {
+  padding-left: 16px;
+}
+.mega-menu:hover {
+  display: block;
+  z-index: 1000;
+}
+.mega-menu h2 {
+  color: #FFFFFF;
+  margin-top: -3px;
+}
+.mega-menu li > a {
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
+}
+.mega-menu li > a:hover {
+  text-decoration: underline;
+}
+.mega-menu .row {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 16px;
+}
+.mega-menu .row > ul {
+  padding: 0;
+  margin: 0;
+}
+.mega-menu .row > ul > li {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  width: 295px;
+  margin-bottom: 16px;
+  vertical-align: top;
+  margin-right: 16px;
+  padding: 0px;
+}
+.mega-menu .row > ul > li:last-child {
+  margin-right: 0px;
+}
+.mega-menu li {
+  list-style-type: none;
+}
+.mega-menu img {
+  padding: 0px 16px 0px 0px;
+  margin: 0px;
+  float: left;
+  border: 0px solid white;
+  margin-bottom: 20px;
+}
+.mega-menu .list-group {
+  display: table-cell;
+  border: 0px solid yellow;
+  padding: 0px;
+  padding-top: 4px;
+}
+.mega-menu .menu-icons {
+  background: url(../img/sprites.png) no-repeat;
+  display: inline-block;
+  height: 60px;
+  width: 40px;
+  margin-right: 16px;
+  float: left;
+  border: 0px solid white;
+  margin-bottom: 20px;
+}
+.mega-menu #auto-tech {
+  background-position: 0px 0px;
+}
+.mega-menu #displays {
+  background-position: -450px 0px;
+}
+.mega-menu #enterprise-it {
+  background-position: -367px 0px;
+}
+.mega-menu #healthcare-tech {
+  background-position: -326px 0px;
+}
+.mega-menu #manufacturing-tech {
+  background-position: -285px 0px;
+}
+.mega-menu #teardowns-cost {
+  background-position: -42px 0px;
+}
+.mega-menu #mobile-telecom {
+  background-position: -163px 0px;
+}
+.mega-menu #mobile-consumer {
+  background-position: -203px 0px;
+}
+.mega-menu #power-energy {
+  background-position: -122px 0px;
+}
+.mega-menu #security-tech {
+  background-position: -408px 0px;
+}
+.mega-menu #semiconductors {
+  background-position: -82px 0px;
+}
+.mega-menu #media-advertising {
+  background-position: -243px 0px;
+}
